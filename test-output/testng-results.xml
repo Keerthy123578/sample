@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-26T14:25:55 IST" name="Suite" finished-at="2023-08-26T14:25:55 IST" duration-ms="83">
+    <groups>
+      <group name="regression">
+        <method signature="GroupingDemo.tc3()[pri:0, instance:grouping.GroupingDemo@f5ac9e4]" name="tc3" class="grouping.GroupingDemo"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="GroupingDemo.tc2()[pri:0, instance:grouping.GroupingDemo@f5ac9e4]" name="tc2" class="grouping.GroupingDemo"/>
+      </group> <!-- smoke -->
+      <group name="UAT">
+        <method signature="GroupingDemo.tc4()[pri:0, instance:grouping.GroupingDemo@f5ac9e4]" name="tc4" class="grouping.GroupingDemo"/>
+      </group> <!-- UAT -->
+    </groups>
+    <test started-at="2023-08-26T14:25:55 IST" name="Test" finished-at="2023-08-26T14:25:55 IST" duration-ms="83">
+      <class name="grouping.GroupingDemo">
+        <test-method signature="tc2()[pri:0, instance:grouping.GroupingDemo@f5ac9e4]" started-at="2023-08-26T14:25:55 IST" name="tc2" finished-at="2023-08-26T14:25:55 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method signature="tc3()[pri:0, instance:grouping.GroupingDemo@f5ac9e4]" started-at="2023-08-26T14:25:55 IST" name="tc3" finished-at="2023-08-26T14:25:55 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+        <test-method signature="tc4()[pri:0, instance:grouping.GroupingDemo@f5ac9e4]" started-at="2023-08-26T14:25:55 IST" name="tc4" finished-at="2023-08-26T14:25:55 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4 -->
+      </class> <!-- grouping.GroupingDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
